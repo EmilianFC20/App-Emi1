@@ -12,8 +12,11 @@ class ButtonPurple extends StatelessWidget {
       margin: EdgeInsets.only(top: 30.0, left: 20.0, right: 20.0),
       child: InkWell(
         onTap: () {
-          Scaffold.of(context)
-              .showSnackBar(SnackBar(content: Text("Navegando")));
+          ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(
+                  content: Text("Navegando")
+              )
+          );
         },
         child: Container(
           //margin: EdgeInsets.only(

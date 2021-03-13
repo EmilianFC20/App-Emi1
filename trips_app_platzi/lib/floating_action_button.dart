@@ -20,7 +20,13 @@ class _FloatingActionButtonGreen extends State<FloatingActionButtonGreen> {
       backgroundColor: Color(0xFF11da53),
       mini: true,
       tooltip: "Fav",
-      onPressed: onPressedFav,
+      onPressed: () {
+        ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+                content: Text("Agregado a favoritos")
+            )
+        );
+      },
       child: Icon(Icons.favorite_border),
     );
   }
