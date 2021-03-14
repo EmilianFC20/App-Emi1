@@ -43,15 +43,15 @@ class _FunctionTrips extends State<FunctionTrips> {
           items: [
             BottomNavigationBarItem(
               icon: Icon(Icons.home_filled),
-              label: ""
+              label: "Home"
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.search),
-              label: ""
+              label: "Search"
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.person),
-              label: ""
+              label: "Profile"
             )
           ],
         ),
