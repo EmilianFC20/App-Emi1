@@ -17,6 +17,9 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" generated="true" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app_plat/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app_plat/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_app_plat/build" />
       <excludeFolder url="file://$MODULE_DIR$/trips_app_platzi/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/trips_app_platzi/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/trips_app_platzi/build" />
