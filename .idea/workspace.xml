@@ -23,16 +23,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0bb267f-668f-49d7-ac59-2e13b97ac53a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/trips_app_platzi/lib/buttons_bar.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trips_app_platzi/lib/circle_button.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trips_app_platzi/lib/profile_background.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trips_app_platzi/lib/profile_header.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trips_app_platzi/lib/user_info.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Flutter proyecto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Flutter proyecto.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+    <list default="true" id="a0bb267f-668f-49d7-ac59-2e13b97ac53a" name="Default Changelist" comment="Added profile background&#10;Added profile header composed by user info and buttons bar (composed of circle button)">
+      <change afterPath="$PROJECT_DIR$/trips_app_platzi/lib/place.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trips_app_platzi/lib/profile_place.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trips_app_platzi/lib/profile_place_info.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trips_app_platzi/lib/profile_places_list.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trips_app_platzi/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/card_image.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/card_image.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/floating_action_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/floating_action_button_green.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/profile_trips.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/profile_trips.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615748628841</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added profile background&#10;Added profile header composed by user info and buttons bar (composed of circle button)">
+      <created>1615866155174</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615866155174</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,7 +134,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added bottom navigation bar&#10;Snackbar fav mistake corrected" />
     <MESSAGE value="Added labels to bottomNavigationBar,&#10;Installed generic_bloc_provider" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added labels to bottomNavigationBar,&#10;Installed generic_bloc_provider" />
+    <MESSAGE value="Added profile background&#10;Added profile header composed by user info and buttons bar (composed of circle button)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added profile background&#10;Added profile header composed by user info and buttons bar (composed of circle button)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="648" y="254" key="#Custom_Plugin_Repositories" timestamp="1615853160536">
@@ -161,30 +168,30 @@
     <state x="-925" y="160" key="FileChooserDialogImpl/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1615615554211" />
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1615330141368" />
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1615853796676" />
-    <state width="1491" height="191" key="GridCell.Tab.0.bottom" timestamp="1615865847266">
+    <state width="1491" height="191" key="GridCell.Tab.0.bottom" timestamp="1615874476568">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1397" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1615751289133" />
     <state width="1340" height="168" key="GridCell.Tab.0.bottom/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1615492464038" />
-    <state width="1491" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615865847266" />
-    <state width="1491" height="191" key="GridCell.Tab.0.center" timestamp="1615865847266">
+    <state width="1491" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615874476568" />
+    <state width="1491" height="191" key="GridCell.Tab.0.center" timestamp="1615874476568">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1397" height="191" key="GridCell.Tab.0.center/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1615751289133" />
     <state width="1340" height="168" key="GridCell.Tab.0.center/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1615492464037" />
-    <state width="1491" height="191" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615865847266" />
-    <state width="1491" height="191" key="GridCell.Tab.0.left" timestamp="1615865847266">
+    <state width="1491" height="191" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615874476568" />
+    <state width="1491" height="191" key="GridCell.Tab.0.left" timestamp="1615874476568">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1397" height="191" key="GridCell.Tab.0.left/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1615751289133" />
     <state width="1340" height="168" key="GridCell.Tab.0.left/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1615492464037" />
-    <state width="1491" height="191" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615865847266" />
-    <state width="1491" height="191" key="GridCell.Tab.0.right" timestamp="1615865847266">
+    <state width="1491" height="191" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615874476568" />
+    <state width="1491" height="191" key="GridCell.Tab.0.right" timestamp="1615874476568">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1397" height="191" key="GridCell.Tab.0.right/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1615751289133" />
     <state width="1340" height="168" key="GridCell.Tab.0.right/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1615492464038" />
-    <state width="1491" height="191" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615865847266" />
+    <state width="1491" height="191" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615874476568" />
     <state x="277" y="0" key="SettingsEditor" timestamp="1615853584471">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
