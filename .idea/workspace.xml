@@ -23,32 +23,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0bb267f-668f-49d7-ac59-2e13b97ac53a" name="Default Changelist" comment="Added Profile Places List&#10;composed of place, profile place, and profile places info.&#10;Added jpg to gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/button_purple.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/widgets/button_purple.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/buttons_bar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/User/ui/widgets/buttons_bar.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/card_image.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/Place/ui/widgets/card_image.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/card_image_list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/Place/ui/widgets/card_image_list.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/circle_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/User/ui/widgets/circle_button.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/description_place.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/Place/ui/widgets/description_place.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/floating_action_button_green.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/widgets/floating_action_button_green.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/fucntion_trips_cupertino.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/fucntion_trips_cupertino.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/function_trips.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/function_trips.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/gradient_back.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/widgets/gradient_back.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/header_appbar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/Place/ui/screens/header_appbar.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/home_trips.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/Place/ui/screens/home_trips.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/place.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/Place/model/place.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/profile_background.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/User/ui/widgets/profile_background.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/profile_header.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/User/ui/screens/profile_header.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/profile_place.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/User/ui/widgets/profile_place.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/profile_place_info.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/User/ui/widgets/profile_place_info.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/profile_places_list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/User/ui/widgets/profile_places_list.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/profile_trips.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/User/ui/screens/profile_trips.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/review.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/Place/ui/widgets/review.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/review_list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/Place/ui/widgets/review_list.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/search_trips.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/Place/ui/screens/search_trips.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/user_info.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/User/ui/widgets/user_info.dart" afterDir="false" />
-    </list>
+    <list default="true" id="a0bb267f-668f-49d7-ac59-2e13b97ac53a" name="Default Changelist" comment="Bloc + Clean architecture implemented&#10;Corrected misspelled name in profile name" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -146,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615874821753</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Bloc + Clean architecture implemented&#10;Corrected misspelled name in profile name">
+      <created>1616017883855</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616017883855</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,7 +148,8 @@
     <MESSAGE value="Added labels to bottomNavigationBar,&#10;Installed generic_bloc_provider" />
     <MESSAGE value="Added profile background&#10;Added profile header composed by user info and buttons bar (composed of circle button)" />
     <MESSAGE value="Added Profile Places List&#10;composed of place, profile place, and profile places info.&#10;Added jpg to gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Profile Places List&#10;composed of place, profile place, and profile places info.&#10;Added jpg to gitignore" />
+    <MESSAGE value="Bloc + Clean architecture implemented&#10;Corrected misspelled name in profile name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bloc + Clean architecture implemented&#10;Corrected misspelled name in profile name" />
   </component>
   <component name="WindowStateProjectService">
     <state x="648" y="254" key="#Custom_Plugin_Repositories" timestamp="1615853160536">
@@ -233,10 +216,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="515" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1615784768687" />
-    <state x="-911" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615669952636">
-      <screen x="-1440" y="0" width="1440" height="860" />
+    <state x="564" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616017954662">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-911" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1615669952636" />
+    <state x="564" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1616017954662" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1615856769631">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
