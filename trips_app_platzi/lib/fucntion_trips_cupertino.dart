@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'home_trips.dart';
-import 'search_trips.dart';
-import 'profile_trips.dart';
+import 'package:trips_app_platzi/Place/ui/screens/home_trips.dart';
+import 'package:trips_app_platzi/Place/ui/screens/search_trips.dart';
+import 'package:trips_app_platzi/User/ui/screens/profile_trips.dart';
 
 class FunctionTripsCupertino extends StatelessWidget {
   @override

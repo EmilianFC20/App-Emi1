@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'floating_action_button_green.dart';
+import 'package:trips_app_platzi/widgets/floating_action_button_green.dart';
 
 /// Widget para crear una card image
 class CardImage extends StatelessWidget {

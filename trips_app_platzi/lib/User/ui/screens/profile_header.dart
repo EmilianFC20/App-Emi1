@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'user_info.dart';
-import 'buttons_bar.dart';
+import 'package:trips_app_platzi/User/ui/widgets/user_info.dart';
+import 'package:trips_app_platzi/User/ui/widgets/buttons_bar.dart';
 
 class ProfileHeader extends StatelessWidget {
   @override
@@ -29,7 +29,7 @@ class ProfileHeader extends StatelessWidget {
               title
             ],
           ),
-          UserInfo("assets/img/KE.jpg", "Emilinao Fernández Cervantes", "fdezemi@outlook.es"),
+          UserInfo("assets/img/KE.jpg", "Emiliano Fernández", "fdezemi@outlook.es"),
           ButtonsBar()
         ],
       ),
