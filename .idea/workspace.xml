@@ -25,13 +25,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0bb267f-668f-49d7-ac59-2e13b97ac53a" name="Default Changelist" comment="Bloc + Clean architecture implemented&#10;Corrected misspelled name in profile name">
-      <change afterPath="$PROJECT_DIR$/trips_app_platzi/android/app/google-services.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trips_app_platzi/lib/Place/bloc/bloc_place.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trips_app_platzi/lib/User/bloc/bloc_user.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trips_app_platzi/lib/User/repository/auth_repository.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trips_app_platzi/lib/User/repository/firebase_auth_api.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trips_app_platzi/lib/User/ui/screens/sign_in_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trips_app_platzi/lib/widgets/button_green.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/Place/ui/screens/header_appbar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/Place/ui/screens/header_appbar.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/User/bloc/bloc_user.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/User/bloc/bloc_user.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/widgets/button_purple.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/widgets/button_purple.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/widgets/gradient_back.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/widgets/gradient_back.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trips_app_platzi/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trips_app_platzi/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +74,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="emulator" />
+    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -138,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616017883855</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Created bloc Provider documents and added them to main.dart&#10;Added Firebase for Android &#10;&#10;android/app/build.gradle line 11&#10;GradleException substituted for FileNotFoundException&#10;&#10;android/app/build.gradle line 2-9&#10;versions updated">
+      <created>1616104757376</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616104757377</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,7 +174,8 @@
     <MESSAGE value="Bloc + Clean architecture implemented&#10;Corrected misspelled name in profile name" />
     <MESSAGE value="Created bloc Provider documents and added them to main.dart&#10;Added Firebase for Android" />
     <MESSAGE value="Created bloc Provider documents and added them to main.dart&#10;Added Firebase for Android &#10;&#10;android/app/build.graddle line 11&#10;GradleException substituted for FileNotFoundException" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created bloc Provider documents and added them to main.dart&#10;Added Firebase for Android &#10;&#10;android/app/build.graddle line 11&#10;GradleException substituted for FileNotFoundException" />
+    <MESSAGE value="Created bloc Provider documents and added them to main.dart&#10;Added Firebase for Android &#10;&#10;android/app/build.gradle line 11&#10;GradleException substituted for FileNotFoundException&#10;&#10;android/app/build.gradle line 2-9&#10;versions updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created bloc Provider documents and added them to main.dart&#10;Added Firebase for Android &#10;&#10;android/app/build.gradle line 11&#10;GradleException substituted for FileNotFoundException&#10;&#10;android/app/build.gradle line 2-9&#10;versions updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="648" y="254" key="#Custom_Plugin_Repositories" timestamp="1615853160536">
@@ -194,34 +208,34 @@
     <state x="-925" y="160" key="FileChooserDialogImpl/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1615615554211" />
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1615330141368" />
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1615853796676" />
-    <state width="1397" height="178" key="GridCell.Tab.0.bottom" timestamp="1616103894132">
+    <state width="1397" height="191" key="GridCell.Tab.0.bottom" timestamp="1616132353439">
       <screen x="-1440" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1616103894132" />
-    <state width="1340" height="168" key="GridCell.Tab.0.bottom/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1615492464038" />
-    <state width="1491" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616018044821" />
-    <state width="1397" height="178" key="GridCell.Tab.0.center" timestamp="1616103894131">
+    <state width="1397" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1616132353439" />
+    <state width="1491" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1616120394527" />
+    <state width="1491" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616113955379" />
+    <state width="1397" height="191" key="GridCell.Tab.0.center" timestamp="1616132353439">
       <screen x="-1440" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="178" key="GridCell.Tab.0.center/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1616103894131" />
-    <state width="1340" height="168" key="GridCell.Tab.0.center/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1615492464037" />
-    <state width="1491" height="191" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616018044821" />
-    <state width="1397" height="178" key="GridCell.Tab.0.left" timestamp="1616103894131">
+    <state width="1397" height="191" key="GridCell.Tab.0.center/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1616132353439" />
+    <state width="1491" height="191" key="GridCell.Tab.0.center/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1616120394527" />
+    <state width="1491" height="191" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616113955378" />
+    <state width="1397" height="191" key="GridCell.Tab.0.left" timestamp="1616132353438">
       <screen x="-1440" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="178" key="GridCell.Tab.0.left/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1616103894131" />
-    <state width="1340" height="168" key="GridCell.Tab.0.left/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1615492464037" />
-    <state width="1491" height="191" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616018044821" />
-    <state width="1397" height="178" key="GridCell.Tab.0.right" timestamp="1616103894132">
+    <state width="1397" height="191" key="GridCell.Tab.0.left/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1616132353438" />
+    <state width="1491" height="191" key="GridCell.Tab.0.left/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1616120394527" />
+    <state width="1491" height="191" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616113955378" />
+    <state width="1397" height="191" key="GridCell.Tab.0.right" timestamp="1616132353439">
       <screen x="-1440" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="178" key="GridCell.Tab.0.right/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1616103894132" />
-    <state width="1340" height="168" key="GridCell.Tab.0.right/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1615492464038" />
-    <state width="1491" height="191" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616018044821" />
-    <state x="-1180" y="59" key="SettingsEditor" timestamp="1616102193543">
+    <state width="1397" height="191" key="GridCell.Tab.0.right/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1616132353439" />
+    <state width="1491" height="191" key="GridCell.Tab.0.right/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1616120394527" />
+    <state width="1491" height="191" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616113955378" />
+    <state x="-1180" y="59" key="SettingsEditor" timestamp="1616104623883">
       <screen x="-1440" y="0" width="1440" height="860" />
     </state>
-    <state x="-1180" y="59" key="SettingsEditor/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1616102193543" />
+    <state x="-1180" y="59" key="SettingsEditor/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1616104623883" />
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1615332346466" />
     <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1615875319873" />
     <state x="515" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1615784768687">
@@ -233,11 +247,11 @@
     </state>
     <state x="-911" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1615669952636" />
     <state x="564" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1616017954662" />
-    <state x="-1036" y="151" width="672" height="708" key="search.everywhere.popup" timestamp="1616097175954">
-      <screen x="-1440" y="0" width="1440" height="860" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1616120311220">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1036" y="151" width="672" height="708" key="search.everywhere.popup/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1616097175954" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1615324652435" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1616120311220" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1615856769631" />
   </component>
 </project>

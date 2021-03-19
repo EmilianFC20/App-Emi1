@@ -2,8 +2,12 @@ import 'package:flutter/material.dart';
 import 'fucntion_trips_cupertino.dart';
 import 'package:generic_bloc_provider/generic_bloc_provider.dart';
 import 'package:trips_app_platzi/User/bloc/bloc_user.dart';
+import 'package:trips_app_platzi/User/ui/screens/sign_in_screen.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(MyApp());
 }
 
@@ -19,7 +23,7 @@ class MyApp extends StatelessWidget {
               // This is the theme of your application.
               primarySwatch: Colors.blue,
             ),
-            home: FunctionTripsCupertino()
+            home: SignInScreen(),
         ),
         bloc: UserBloc()
     );
