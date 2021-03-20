@@ -25,20 +25,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0bb267f-668f-49d7-ac59-2e13b97ac53a" name="Default Changelist" comment="Bloc + Clean architecture implemented&#10;Corrected misspelled name in profile name">
+      <change afterPath="$PROJECT_DIR$/trips_app_platzi/lib/User/model/user_data.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/User/bloc/bloc_user.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/User/bloc/bloc_user.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/User/repository/auth_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/User/repository/auth_repository.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/User/repository/firebase_auth_api.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/User/repository/firebase_auth_api.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/User/ui/widgets/buttons_bar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/User/ui/widgets/buttons_bar.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/User/ui/widgets/circle_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/User/ui/widgets/circle_button.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/fucntion_trips_cupertino.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/fucntion_trips_cupertino.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/User/ui/screens/profile_header.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/User/ui/screens/profile_header.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/User/ui/screens/sign_in_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/User/ui/screens/sign_in_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trips_app_platzi/lib/User/ui/widgets/user_info.dart" beforeDir="false" afterPath="$PROJECT_DIR$/trips_app_platzi/lib/User/ui/widgets/users_info.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[192.168.0.48:5555]" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -68,7 +66,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -145,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616104757377</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="button bar - 2 buttons removed, 2 buttons modified&#10;circle button added method&#10;&#10;Signout implemented for Gmail">
+      <created>1616185445096</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1616185445096</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,7 +174,8 @@
     <MESSAGE value="Created bloc Provider documents and added them to main.dart&#10;Added Firebase for Android" />
     <MESSAGE value="Created bloc Provider documents and added them to main.dart&#10;Added Firebase for Android &#10;&#10;android/app/build.graddle line 11&#10;GradleException substituted for FileNotFoundException" />
     <MESSAGE value="Created bloc Provider documents and added them to main.dart&#10;Added Firebase for Android &#10;&#10;android/app/build.gradle line 11&#10;GradleException substituted for FileNotFoundException&#10;&#10;android/app/build.gradle line 2-9&#10;versions updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created bloc Provider documents and added them to main.dart&#10;Added Firebase for Android &#10;&#10;android/app/build.gradle line 11&#10;GradleException substituted for FileNotFoundException&#10;&#10;android/app/build.gradle line 2-9&#10;versions updated" />
+    <MESSAGE value="button bar - 2 buttons removed, 2 buttons modified&#10;circle button added method&#10;&#10;Signout implemented for Gmail" />
+    <option name="LAST_COMMIT_MESSAGE" value="button bar - 2 buttons removed, 2 buttons modified&#10;circle button added method&#10;&#10;Signout implemented for Gmail" />
   </component>
   <component name="WindowStateProjectService">
     <state x="648" y="254" key="#Custom_Plugin_Repositories" timestamp="1615853160536">
@@ -202,45 +208,53 @@
     <state x="-925" y="160" key="FileChooserDialogImpl/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1615615554211" />
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1615330141368" />
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1615853796676" />
-    <state width="1491" height="191" key="GridCell.Tab.0.bottom" timestamp="1616133462443">
+    <state width="1397" height="178" key="GridCell.Tab.0.bottom" timestamp="1616204827461">
       <screen x="-1440" y="0" width="1440" height="860" />
     </state>
-    <state width="1491" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1616133462443" />
+    <state width="1397" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1616204827461" />
     <state width="1491" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1616120394527" />
     <state width="1491" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616113955379" />
-    <state width="1491" height="191" key="GridCell.Tab.0.center" timestamp="1616133462443">
+    <state width="1397" height="178" key="GridCell.Tab.0.center" timestamp="1616204827460">
       <screen x="-1440" y="0" width="1440" height="860" />
     </state>
-    <state width="1491" height="191" key="GridCell.Tab.0.center/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1616133462443" />
+    <state width="1397" height="178" key="GridCell.Tab.0.center/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1616204827460" />
     <state width="1491" height="191" key="GridCell.Tab.0.center/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1616120394527" />
     <state width="1491" height="191" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616113955378" />
-    <state width="1491" height="191" key="GridCell.Tab.0.left" timestamp="1616133462443">
+    <state width="1397" height="178" key="GridCell.Tab.0.left" timestamp="1616204827460">
       <screen x="-1440" y="0" width="1440" height="860" />
     </state>
-    <state width="1491" height="191" key="GridCell.Tab.0.left/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1616133462443" />
+    <state width="1397" height="178" key="GridCell.Tab.0.left/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1616204827460" />
     <state width="1491" height="191" key="GridCell.Tab.0.left/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1616120394527" />
     <state width="1491" height="191" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616113955378" />
-    <state width="1491" height="191" key="GridCell.Tab.0.right" timestamp="1616133462443">
+    <state width="1397" height="178" key="GridCell.Tab.0.right" timestamp="1616204827461">
       <screen x="-1440" y="0" width="1440" height="860" />
     </state>
-    <state width="1491" height="191" key="GridCell.Tab.0.right/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1616133462443" />
+    <state width="1397" height="178" key="GridCell.Tab.0.right/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1616204827461" />
     <state width="1491" height="191" key="GridCell.Tab.0.right/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1616120394527" />
     <state width="1491" height="191" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616113955378" />
-    <state x="-1180" y="59" key="SettingsEditor" timestamp="1616104623883">
+    <state x="-1180" y="59" key="SettingsEditor" timestamp="1616185416898">
       <screen x="-1440" y="0" width="1440" height="860" />
     </state>
-    <state x="-1180" y="59" key="SettingsEditor/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1616104623883" />
+    <state x="-1180" y="59" key="SettingsEditor/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1616185416898" />
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1615332346466" />
     <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1615875319873" />
+    <state x="-1128" y="163" key="Vcs.Push.Dialog.v2" timestamp="1616185458197">
+      <screen x="-1440" y="0" width="1440" height="860" />
+    </state>
+    <state x="-1128" y="163" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1616185458197" />
     <state x="515" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1615784768687">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="515" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1615784768687" />
-    <state x="-911" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616133334678">
+    <state x="-911" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616185570157">
       <screen x="-1440" y="0" width="1440" height="860" />
     </state>
-    <state x="-911" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1616133334678" />
+    <state x="-911" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1616185570157" />
     <state x="564" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1616017954662" />
+    <state x="-1114" y="0" width="1130" height="627" key="dock-window-1" timestamp="1616204533607">
+      <screen x="-1440" y="0" width="1440" height="860" />
+    </state>
+    <state x="-1114" y="0" width="1130" height="627" key="dock-window-1/0.0.1536.824/-1440.0.1440.860@-1440.0.1440.860" timestamp="1616204533607" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1616120311220">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
